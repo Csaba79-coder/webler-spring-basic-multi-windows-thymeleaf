@@ -17,6 +17,6 @@ public class DataInitializer implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         students.add(new Student("John", "Doe", "M."));
-        students.add(new Student("Jane", "Doe", "A."));
+        students.add(new Student("Jane", "Doe", ""));
     }
 }
